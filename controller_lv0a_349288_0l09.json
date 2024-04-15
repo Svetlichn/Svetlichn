@@ -1,0 +1,15 @@
+false - false
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const randomNumber = getRandomNumber();
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+apple - apple
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+const findLargestNumber = numbers => Math.max(...numbers);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+80 - false
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
