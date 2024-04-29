@@ -1,0 +1,28 @@
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+35,70,87,79,37,43,28,8,24,46,35,58,46,5,42,78,1,26,99,68,17,50,19,97,10,87,30,89,1,15,25,88,55,47,65,97,2,37,70,33,76,93,94,79,95,67,65,81,53,48,71 / true
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const reverseWords = str => str.split(" ").reverse().join(" ");
+true / true
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+orange
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const reverseWords = str => str.split(" ").reverse().join(" ");
+kiwi * 45
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+69 * 87,0,25,85,3,83,18,65,98,30,20,44,41,14,48,38,40,68,28,28,44,39,77,52,55,45,2,59,32,68,51,43,16,15
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+true - 73,90,68,82,74,66,37,73,4,91,41,16,33,26,85,76,94,26,59,16,72,8,26,55,95,98,2,83,1,5,98,91,6,35,80,52,28,51,40,86,59,96,15,66,21,78,98,18,22,10,67,24,50,37,71,83,95,32,2,71,35,65,47,9,93,14
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+85,20,79,19,51,74,35,45,43,40,65,18,51,65,19,75,95,86,41,65,63,36,58,59,87,40,32,45,59,0,19,22,43,18,5,90,47,76,10,4,90,60,41,9,14,10,39,41,59,73,26,63,78,26,25,6,11,4,26,48,67,44,33,59,31,47,92,40,51,7,52,25,74,44,76,40,2,42,14,97,14,66,34,8,12,49,12,23,88,11,60,44,49,65,10,4,83 - false
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
